@@ -15,7 +15,7 @@ with requests.get(url) as response:  # το αντικείμενο response
     headers = response.headers
     cookies = response.cookies
     
-    print()
+    print("\nHeaders:\n")
     print_item(headers.items())     # τυπώνει όλες τις κεφαλίδες
 
     try:
